@@ -5,3 +5,6 @@
 .footnote {
     font-size: 10;
 }
+.ul.navbar-brand {
+    padding-left: 50px;
+}
