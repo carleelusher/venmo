@@ -1,44 +1,41 @@
 .btn {
 
-    border-radius: 30px;
-    border: 0.25px solid black;
-    display: block;
-    font-size: 13px;
-    font-family:unset;
-    width: 140px;
-    
-  }
-  .btn:hover {
-    background-color: rgb(229, 241, 247);
+  border-radius: 30px;
+  border: 0.25px solid black;
+  display: block;
+  font-size: 13px;
+  font-family:unset;
+  width: 140px;
+  
+}
+.btn:hover {
+  background-color: rgb(229, 241, 247);
+  font-family: unset;
+ 
+}
+
+.btndown {
+    background-color:white;
+    border: solid white;
     font-family: unset;
    
-  }
+    ;
 
-  .btndown {
-      background-color:white;
-      border: solid white;
-      font-family: unset;
-     
-      ;
-
-  }
-  .btndown:hover {
-      background-color: white;   
-      font-family: unset;
-     
-  }
-  ul.navbar-nav {
-    font-family: inherit;
-    
-  }
-  
-
-  ul.dropdown-menu:hover{
-      background-color: white;
-      border: white;
-      font-family: unset ;
+}
+.btndown:hover {
+    background-color: white;   
+    font-family: unset;
    
-  }
+}
+ul.navbar-nav {
+  font-family: inherit;
   
+}
 
-  
+
+ul.dropdown-menu:hover{
+    background-color: white;
+    border: white;
+    font-family: unset ;
+ 
+}
