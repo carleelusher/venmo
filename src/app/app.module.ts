@@ -5,13 +5,17 @@ import { SecondFooterComponent } from 'src/navigation/footer/secondfooter.compon
 import { NavbarComponent } from 'src/navigation/navbar.component';
 
 import { AppComponent } from './app.component';
+import { CardComponent } from './categories/card/card';
+import { CarouselComponent } from './categories/carousel';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    SecondFooterComponent
+    SecondFooterComponent,
+    CarouselComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule
