@@ -1,9 +1,27 @@
-
 <app-navbar>Loading...</app-navbar>
 <app-carousel>Loading...</app-carousel>
 <app-card>Loading...</app-card>
-<app-footer>Loading...</app-footer>
-<app-secondfooter>Loading...</app-secondfooter>
 
+<div class="container-fluid d-flex">
+    <card-databinding img="/assets/apps.webp" title="Pay in apps & online"
+        description="Check out with Venmo, then share your finds with friends.">Loading...</card-databinding>
+    <card-databinding img="/assets/local.webp" title="Shop local"
+        description="Pay local businesses the same way you pay your friends on Venmo.">Loading...</card-databinding>
+    <card-databinding img="/assets/debit.webp" title="Venmo Debit Card"
+        description="Take your venmo balance shopping everywhere Mastercard® is accepted in the U.S.">Loading...
+    </card-databinding>
 
+    <div class="container-fluid d-flex">
+      <div *ngFor = "let card of cards">
+        <card-databinding 
+        img ={{card.img}} 
+        title={{card.title}}
+        description ={{card.description}}>
+            Loading...
+        </card-databinding>
+      </div>
+       
 
+    </div>
+    <app-footer>Loading...</app-footer>
+    <app-secondfooter>Loading...</app-secondfooter>

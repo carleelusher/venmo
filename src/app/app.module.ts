@@ -6,6 +6,7 @@ import { NavbarComponent } from 'src/navigation/navbar.component';
 
 import { AppComponent } from './app.component';
 import { CardComponent } from './categories/card/card';
+import { DataBindingCardComponent } from './categories/card/lab3/card-databinding';
 import { CarouselComponent } from './categories/carousel';
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CarouselComponent } from './categories/carousel';
     FooterComponent,
     SecondFooterComponent,
     CarouselComponent,
-    CardComponent
+    CardComponent,
+    DataBindingCardComponent
   ],
   imports: [
     BrowserModule
