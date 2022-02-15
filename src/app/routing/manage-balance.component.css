@@ -1,0 +1,35 @@
+.btn {
+    text-align: left;
+    margin: 15px ;
+    display: block;
+    padding-left: 150px;
+    border:none;
+    
+    }
+    
+    .btn2 {
+        text-align: left;
+        margin: 15px ;
+        display: block;
+        border:none;
+       
+    }
+    
+    .btn3{
+        
+        margin: 2px ;
+        border: none;
+        padding-right: 100px;  
+       
+        padding-top: 45px;
+    
+    }
+    
+    .size {
+        width: 600px;
+        length: 500px;
+    }
+    
+    .text {
+        color: dodgerblue;
+    }

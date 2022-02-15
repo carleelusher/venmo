@@ -7,7 +7,7 @@ export const mock_card_list = [
 {
     img:"/assets/directdeposit.webp",
     title:"Direct Deposit",
-    description: "Get you paychecks up to two days faster.*"
+    description: ""
 },
 {
     img:"/assets/paywithvenmo.webp",

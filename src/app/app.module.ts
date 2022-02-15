@@ -8,6 +8,13 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './categories/card/card';
 import { DataBindingCardComponent } from './categories/card/lab3/card-databinding';
 import { CarouselComponent } from './categories/carousel';
+import { AppRoutingModule } from './app-routing.module';
+import { WaysToPayComponent } from './routing/ways-to-pay.component';
+import { HowItWorksComponent } from './routing/how-its-works.component';
+import { ManageBalanceComponent } from './routing/manage-balance.component';
+import { HomeComponent } from './routing/home.component';
+import { BusinessComponent } from './routing/business.component';
+import { AcceptVenmoComponent } from './routing/accept-venmo.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +24,18 @@ import { CarouselComponent } from './categories/carousel';
     SecondFooterComponent,
     CarouselComponent,
     CardComponent,
-    DataBindingCardComponent
+    DataBindingCardComponent,
+    WaysToPayComponent,
+    HowItWorksComponent,
+    ManageBalanceComponent, 
+    HomeComponent,
+    BusinessComponent, 
+    AcceptVenmoComponent
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

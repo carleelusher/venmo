@@ -1,0 +1,72 @@
+.btn {
+    margin-top: 370px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 70px;
+    
+  }
+  
+  .btn2 {
+    margin-top: 370px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 70px;
+    
+  }
+  
+  .spacing {
+    padding: 70px;
+  }
+  
+  .circle {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 10px;
+    background: white;
+    /* background: rgb(184, 181, 181); */
+  }
+  .color {
+    background-color:white;
+  }
+
+  .btn5 {
+    text-align: left;
+    margin: 15px ;
+    display: block;
+    padding-left: 150px;
+    border:none;
+    
+    }
+    
+    .btn4 {
+        text-align: left;
+        margin: 15px ;
+        display: block;
+        border:none;
+       
+    }
+    
+    .btn3{
+        
+        margin: 2px ;
+        border: none;
+        padding-right: 100px;  
+       
+        padding-top: 45px;
+    
+    }
+    
+    .size {
+        width: 600px;
+        length: 500px;
+    }
+    
+    .text {
+        color: dodgerblue;
+    }

@@ -1,0 +1,22 @@
+.container {
+    padding: 50px;
+    padding-left: 370px;
+    padding-right: 370px;
+    /* font-size: 15px; */
+
+}
+
+.btn {
+    margin-left: 85px;
+    border-radius: 300px;
+    border: 2.75px solid sandybrown;
+    display: block;
+    font-size: 13px;
+    font-family:unset;
+    color: white;
+    width: 150x;
+    background-color: dodgerblue;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+ 
