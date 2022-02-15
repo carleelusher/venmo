@@ -1,0 +1,36 @@
+Changelog
+2/8/22
+Main features:
+Recreated card components from lab 2 using data-binding and a class named “container-fluid d-flex” in “app.component.html” file
+    Added the following attributes using a constructor in the “card-databinding.ts” file
+        Img
+        Description
+        Title
+Created new card components from the venmo website using a mock list, a card model, and a for loop in the “app.component.ts” file
+    In the “app.component.html” file, an ngFor loop was used to create the following attributes calling on the properties made in the “app.component.ts” file
+    Img 
+    Title 
+    Description
+
+2/15/22
+Main features:
+Created layout component named “accept-venmo.component.html”
+    Added a heading, paragraph, and button
+    Added routing to view these attributes
+Created layout component named “business.component.html” 
+    Added a heading, paragraph, and button
+    Added routing to view these attributes
+Created layout component named “home.component.html” 
+    Left navbar and footers on the home layout page for this component 
+    Added routing to view these attributes
+Created layout component named “how-it-works.component.html” 
+    Added cards and carousel to this component 
+    Added routing to view these attributes
+Created layout component named “manage-balance.component.html” 
+    Added cards and routing to view these attributes
+Created layout component named “ways-to-pay.component.html 
+    Added an image and routing to view this attribute
+Bonus features:
+Added a href link to open Venmo’s login page when pushing on the login button at the top of the navbar. 
+Added a href link to open Venmo’s social media platforms when pushing on the social media icon buttons at the bottom of the footer.
+
