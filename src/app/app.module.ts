@@ -9,12 +9,12 @@ import { CardComponent } from './categories/card/card';
 import { DataBindingCardComponent } from './categories/card/lab3/card-databinding';
 import { CarouselComponent } from './categories/carousel';
 import { AppRoutingModule } from './app-routing.module';
-import { WaysToPayComponent } from './routing/ways-to-pay.component';
-import { HowItWorksComponent } from './routing/how-its-works.component';
-import { ManageBalanceComponent } from './routing/manage-balance.component';
-import { HomeComponent } from './routing/home.component';
-import { BusinessComponent } from './routing/business.component';
-import { AcceptVenmoComponent } from './routing/accept-venmo.component';
+import { WaysToPayComponent } from './routing/ways-to-pay/ways-to-pay.component';
+import { HowItWorksComponent } from './routing/how-it-works/how-its-works.component';
+import { ManageBalanceComponent } from './routing/manage-balance/manage-balance.component';
+import { HomeComponent } from './routing/home/home.component';
+import { BusinessComponent } from './routing/business/business.component';
+import { AcceptVenmoComponent } from './routing/accept-venmo/accept-venmo.component';
 
 @NgModule({
   declarations: [

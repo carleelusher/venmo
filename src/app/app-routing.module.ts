@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { WaysToPayComponent } from './routing/ways-to-pay.component';
-import { HowItWorksComponent } from './routing/how-its-works.component';
-import { ManageBalanceComponent } from './routing/manage-balance.component';
-import { HomeComponent } from './routing/home.component';
-import { BusinessComponent } from './routing/business.component';
-import { AcceptVenmoComponent } from './routing/accept-venmo.component';
+import { WaysToPayComponent } from './routing/ways-to-pay/ways-to-pay.component';
+import { HowItWorksComponent } from './routing/how-it-works/how-its-works.component';
+import { ManageBalanceComponent } from './routing/manage-balance/manage-balance.component';
+import { HomeComponent } from './routing/home/home.component';
+import { BusinessComponent } from './routing/business/business.component';
+import { AcceptVenmoComponent } from './routing/accept-venmo/accept-venmo.component';
 
 const routes: Routes = [
   {path: 'ways-to-pay', component : WaysToPayComponent},
