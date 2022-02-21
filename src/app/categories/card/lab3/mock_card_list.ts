@@ -1,18 +1,14 @@
 export const mock_card_list = [
 {
-    img:"/assets/sendreceive.webp",
-    title:"Send & Receive",
-    description:"Venmo is the simple, social way to pay and get paid."
+    img:"/assets/manage.webp",
+    title:"Manage your Venmo money",
+    description:"Move money between Venmo and your bank account, so your cash is exactly where you want it, when you want it.*"
 },
 {
-    img:"/assets/directdeposit.webp",
+    img:"/assets/greendirect.webp",
     title:"Direct Deposit",
-    description: ""
-},
-{
-    img:"/assets/paywithvenmo.webp",
-    title:"Pay with Venmo",
-    description:"Use Venmo just about anywhere you shop: in apps, in-store, and online."
+    description: "Get paychecks sent right into your Venmo account, up to two days earlier than your usual payday.¹ Score!"
 }
+
 ]
 

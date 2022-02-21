@@ -3,6 +3,7 @@
     padding-left: 370px;
     padding-right: 370px;
     /* font-size: 15px; */
+    border:none;
 
 }
 
@@ -19,4 +20,32 @@
     padding-left: 40px;
     padding-right: 40px;
   }
- 
+
+  .format {
+      padding: 50px;
+      margin-top: 175px;
+  }
+
+  .card {
+      border:none
+  }
+
+  .btn3 {
+
+        border-radius: 30px;
+        border: 2.75px solid sandybrown;
+        display: block;
+        font-size: 13px;
+        font-family:unset;
+        color: black;
+        width: 150x;
+        background-color:white;
+        padding-left: 40px;
+        padding-right: 40px;
+     
+   
+  }
+
+.texts {
+    padding-right: 200px;
+}

@@ -70,3 +70,10 @@
     .text {
         color: dodgerblue;
     }
+
+    .container {
+      padding: 70px;
+      padding-left: 430px;
+      padding-right: 430px;
+      
+    }  

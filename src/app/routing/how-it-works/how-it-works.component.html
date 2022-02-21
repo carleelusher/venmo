@@ -33,6 +33,22 @@
     </button>
   </div>
 
+  <div class="container text-center">
+    <h1 class="card-title">Your money your way</h1>
+  </div>
+  
+  <div class="container-fluid d-flex">
+    <div *ngFor = "let card of cards"> 
+      <card-databinding
+      img="{{card.img}}" 
+       title="{{card.title}}"
+      description="{{card.description}}">
+      Loading...
+      </card-databinding>
+    </div>
+  </div>
+  
+
   <div class="card-deck d-flex">
     <div class="card d-flex btn5">
       <img class="card-img-top " src="/assets/apps.webp" alt="Card image cap">
