@@ -34,3 +34,16 @@ Bonus features:
 Added a href link to open Venmo’s login page when pushing on the login button at the top of the navbar. 
 Added a href link to open Venmo’s social media platforms when pushing on the social media icon buttons at the bottom of the footer.
 
+2/22
+Main features:
+Created card components in "how-it-works.component.html" using d-flex to format
+    Used ngFor loop to create two cards
+    Referenced "mock_card_list.ts" and "card.model.ts" to create componenets
+Created card components in "manage-balance.component.html" using d-flex to format
+    Used ngFor loop to create three cards
+    Referenced "mock_card_balance.ts" and "balance.model.ts" to create components
+Created card componenet in "accept-venmo.component.html"
+    Inserted image to the left of text using columns
+    Created button using css 
+Bonus features:
+Added a picture attribute in the "accept-venmo.component.html"
