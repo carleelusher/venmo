@@ -16,7 +16,7 @@ import { HomeComponent } from './routing/home/home.component';
 import { BusinessComponent } from './routing/business/business.component';
 import { AcceptVenmoComponent } from './routing/accept-venmo/accept-venmo.component';
 import { UserInfoComponent } from './user-info/user-info.component';
-import { HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,

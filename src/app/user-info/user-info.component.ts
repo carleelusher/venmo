@@ -15,7 +15,7 @@ myInfo: UserInfo | undefined;
 
   ngOnInit(): void {
     console.log("Sending request to server");
-    this.getUserInfo();
+    this.showUserInfo();
   }
   getUserInfo() {
     return this.http.get<UserInfo>('https://venmo-f5382-default-rtdb.firebaseio.com/myinfo.json');

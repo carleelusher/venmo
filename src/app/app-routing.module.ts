@@ -9,12 +9,13 @@ import { BusinessComponent } from './routing/business/business.component';
 import { AcceptVenmoComponent } from './routing/accept-venmo/accept-venmo.component';
 
 const routes: Routes = [
+   {path: '', component : HomeComponent},
   {path: 'ways-to-pay', component : WaysToPayComponent},
   {path: 'how-it-works', component : HowItWorksComponent},
   {path: 'manage-balance', component : ManageBalanceComponent},
   {path: 'business-profiles', component : BusinessComponent},
-  {path: 'accept-venmo', component : AcceptVenmoComponent},
-  {path: '', component : HomeComponent}
+  {path: 'accept-venmo', component : AcceptVenmoComponent}
+ 
 ];
 
 @NgModule({
@@ -27,4 +28,4 @@ const routes: Routes = [
     RouterModule
   ]
 })
-export class AppRoutingModule { }.0
+export class AppRoutingModule { }

@@ -47,3 +47,9 @@ Created card componenet in "accept-venmo.component.html"
     Created button using css 
 Bonus features:
 Added a picture attribute in the "accept-venmo.component.html"
+
+3/1
+Main features:
+Created a firebase
+Created "user-info" components to print out firebase components
+    Added in HttpClient aspect in "app.module.ts"
