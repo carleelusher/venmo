@@ -53,3 +53,10 @@ Main features:
 Created a firebase
 Created "user-info" components to print out firebase components
     Added in HttpClient aspect in "app.module.ts"
+
+3/8
+Main features:
+Moved mock data to backend on firebase  
+    Recreated 3 card componenets in "manage-balance.component.ts" and  
+    "backend-manage-balance.ts" using backend 
+    Created methods containing list of components to obtain data
