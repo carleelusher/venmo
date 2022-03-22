@@ -60,3 +60,10 @@ Moved mock data to backend on firebase
     Recreated 3 card componenets in "manage-balance.component.ts" and  
     "backend-manage-balance.ts" using backend 
     Created methods containing list of components to obtain data
+
+3/21
+Main feautres:
+Added AngularFireModule, AngularFirestoreModule,initializeApp, provideFirebaseApp, and
+environment modules in app.module.ts
+ Changed from using HtppClient to AngularFireDataBase in the backend file
+ Installed packages and deployed website to be publicly accessible

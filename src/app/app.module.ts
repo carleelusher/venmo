@@ -17,6 +17,13 @@ import { BusinessComponent } from './routing/business/business.component';
 import { AcceptVenmoComponent } from './routing/accept-venmo/accept-venmo.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { HttpClientModule } from '@angular/common/http';
+import { provideDatabase, getDatabase} from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule} from '@angular/fire/compat/firestore';
+import { initializeApp, provideFirebaseApp} from '@angular/fire/app';
+import { environment } from 'src/environments/environment';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +45,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

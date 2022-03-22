@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "venmo-f5382"
+  },
+  "targets": {
+    "venmo-f5382": {
+      "hosting": {
+        "venmo": [
+          "venmo-f5382"
+        ]
+      }
+    }
+  }
+}

@@ -25,8 +25,7 @@ export class ManageBalanceComponent implements OnInit {
      this.manageBalance.getBalance().subscribe(data => {
         console.log("Fetching data");
         for (var product of data) {
-          console.log(product);
-          this.cards.push(product);;
+          this.cards.push(product);
   }
     })
   }
