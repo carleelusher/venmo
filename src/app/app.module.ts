@@ -22,6 +22,8 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule} from '@angular/fire/compat/firestore';
 import { initializeApp, provideFirebaseApp} from '@angular/fire/app';
 import { environment } from 'src/environments/environment';
+import { FormComponent } from './form/form.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -39,7 +41,8 @@ import { environment } from 'src/environments/environment';
     HomeComponent,
     BusinessComponent, 
     AcceptVenmoComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    FormComponent
 
   ],
   imports: [
@@ -47,7 +50,8 @@ import { environment } from 'src/environments/environment';
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

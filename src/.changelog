@@ -67,3 +67,9 @@ Added AngularFireModule, AngularFirestoreModule,initializeApp, provideFirebaseAp
 environment modules in app.module.ts
  Changed from using HtppClient to AngularFireDataBase in the backend file
  Installed packages and deployed website to be publicly accessible
+
+3/28
+Main features:
+Created a form componenent to input card attributes
+    Added method named "addCard()" in the "backend-manage-balance.ts" file to send the data back
+    Uses input from and sends data to "form.component.html".

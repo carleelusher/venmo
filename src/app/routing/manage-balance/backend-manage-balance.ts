@@ -1,6 +1,7 @@
 import { Injectable } from "@angular/core";
 import { BalanceModel } from "./balance.model";
 import { AngularFireDatabase} from "@angular/fire/compat/database";
+import { CardModel } from "src/app/categories/card/lab3/card.model";
 
 @Injectable ({
     providedIn: 'root'
@@ -18,5 +19,8 @@ export class BackendManageBalance {
     }
     public getBalances(index: number){
         //return this.http.get<BalanceModel>(this.baseURL+ 'manageBalance/' + index + '.json');
+    }
+    addCard(product: CardModel) {
+        this.db.list<CardModel>("products").push(product);
     }
 }
