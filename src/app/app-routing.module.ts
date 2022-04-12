@@ -8,6 +8,7 @@ import { HomeComponent } from './routing/home/home.component';
 import { BusinessComponent } from './routing/business/business.component';
 import { AcceptVenmoComponent } from './routing/accept-venmo/accept-venmo.component';
 import { FormComponent } from './form/form.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes: Routes = [
    {path: '', component : HomeComponent},
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path: 'manage-balance', component : ManageBalanceComponent},
   {path: 'business-profiles', component : BusinessComponent},
   {path: 'accept-venmo', component : AcceptVenmoComponent},
-  {path: 'admin', component :FormComponent}
+  {path: 'admin', component :FormComponent},
+  {path: 'auth', component :AuthenticationComponent}
 
  
 ];

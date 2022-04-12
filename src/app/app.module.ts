@@ -24,6 +24,7 @@ import { initializeApp, provideFirebaseApp} from '@angular/fire/app';
 import { environment } from 'src/environments/environment';
 import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { FormsModule } from '@angular/forms';
     BusinessComponent, 
     AcceptVenmoComponent,
     UserInfoComponent,
-    FormComponent
+    FormComponent,
+    AuthenticationComponent
 
   ],
   imports: [

@@ -73,3 +73,13 @@ Main features:
 Created a form componenent to input card attributes
     Added method named "addCard()" in the "backend-manage-balance.ts" file to send the data back
     Uses input from and sends data to "form.component.html".
+
+4/11
+Main features:
+Enabled firebase authentication
+Created authentication component to check the authentication of users 
+    Created authentication service component 
+    Connected authentication component to the service component 
+        Displayed data as message if account was created
+        Displayed error as message if account was already created and tried to recreate it
+    
